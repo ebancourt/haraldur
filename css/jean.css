@@ -24,90 +24,86 @@ border-radius : 1em;
 }
 
 /*OVERRIDE regions[header]:  setting region background color to transparent so that you can see the background image behind it*/
-#header{
+#header {
+	background-image: url("http://fotobg.ru/upload/sky_texture1967.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font: 76%/170% Verdana, Arial, Helvetica, sans-serif;
+	font-size:large;
+}
 
-  background-image: url("http://fotobg.ru/upload/sky_texture1967.jpg");
-background-repeat: no-repeat;
-background-position: center center;
-background-attachment: fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-font: 76%/170% Verdana, Arial, Helvetica, sans-serif;
-font-size:large;
 a:link {color:#ffffff;text-decoration: none;}    /* unvisited link */
 a:visited {color:#ffffff;text-decoration: none;} /* visited link */
 a:hover {color:#ffffff;text-decoration: none;}   /* mouse over link */
 a:active {color:#ffffff;text-decoration: none;}  /* selected link */
 
-
-}
 /*OVERRIDE regions[content]:  setting region background color to transparent so that you can see the background image behind it*/
 #page {
   /* background-color:transparent;
   background-image:none;
 */
-background-image: url("http://www.latoro.com/wallpapers/nature/17944-desktop-wallpapers-above-the-clouds.jpg");
-background-repeat: no-repeat;
-background-position: center center;
-background-attachment: fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+	background-image: url("http://www.latoro.com/wallpapers/nature/17944-desktop-wallpapers-above-the-clouds.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-.sidebar h2
-{ 
-color : white;
-font-size : 1.471em;
+.sidebar h2 { 
+	color : white;
+	font-size : 1.471em;
 }
 
-#search-block-form input.form-submit
-{
-margin-left:10px;
+#search-block-form input.form-submit {
+	margin-left:10px;
 }
 
-#header
-{
-background-attachment : scroll;
+#header {
+	background-attachment : scroll;
 }
 
-.node
-{
-background-color : #FFFFFF;
-border-radius : 2em;
-padding : 1.5em 1.5em 1.5em 1.5em;
+.node {
+	background-color : #FFFFFF;
+	border-radius : 2em;
+	padding : 1.5em 1.5em 1.5em 1.5em;
 }
 
 #content,
 #main-menu-links li a.active,
-#main-menu-links li.active-trail a{
-background-image:none;
-font: 76%/170% Verdana, Arial, Helvetica, sans-serif;
-font-size:medium;
+#main-menu-links li.active-trail a {
+	background-image:none;
+	font: 76%/170% Verdana, Arial, Helvetica, sans-serif;
+	font-size:medium;
+}
+
 a:link {color:#000000;text-decoration: none;}    /* unvisited link */
 a:visited {color:#000000;text-decoration: none;} /* visited link */
 a:hover {color:#000000;text-decoration: none;}   /* mouse over link */
 a:active {color:#000000;text-decoration: none;}  /* selected link */
 
-}
 
-#block-search-form .form-item-search-block-form input
-{
-width : 8em;
+/* To make space for the search button :s */
+#block-search-form .form-item-search-block-form input {
+	width : 8em;
 }
 
 /*OVERRIDE page-wrapper:  setting a background image*/
 /*change ONLY this one for full screen images*/
   
-}
+
 /*OVERRIDE regions[footer]:  setting region background color to transparent so that you can see the background image behind it*/
 #footer-wrapper {
-  background-color:#FFFFFF;
-background-image:none;
-width : 70%;
-margin-right:auto;
-margin-left:auto;
+	  background-color:#FFFFFF;
+	background-image:none;
+	width : 70%;
+	margin-right:auto;
+	margin-left:auto;
 }
